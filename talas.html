@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear tablas en MySQL</title>
+</head>
+<body bgcolor="#E0F7FA" text="#263238" link="#00838F" vlink="#6A1B9A">
+    <center>
+        <h1><font color="#006064">CREAR TABLAS EN MYSQL</font></h1>
+        <hr color="#00ACC1" size="4">
+    </center>
+
+    <h2><font color="#00838F">¿Que son las tablas?</font></h2>
+    <p>Las tablas permiten almacenar datos en filas y columnas. Cada columna tiene un nombre y un tipo de dato.</p>
+
+    <h2><font color="#00838F">Ejemplo de sintaxis</font></h2>
+    <pre>
+CREATE TABLE alumnos (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(50),
+    edad INT,
+    grupo VARCHAR(10)
+);
+    </pre>
+
+    <h2><font color="#00838F">Tipos de datos</font></h2>
+    <ul>
+        <li>INT: numeros enteros.</li>
+        <li>VARCHAR: texto.</li>
+        <li>PRIMARY KEY: identifica cada registro.</li>
+        <li>AUTO_INCREMENT: genera identificadores automaticamente.</li>
+    </ul>
+
+    <p><a href="index.html">Volver al menu principal</a></p>
+</body>
+</html>

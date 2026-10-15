@@ -4,35 +4,40 @@
     <meta charset="UTF-8">
     <title>Consultas en MySQL</title>
 </head>
-<body>
-    <h1>Consultas en MySQL</h1>
+<body bgcolor="#FFF8E1" text="#333333" link="#EF6C00" vlink="#6A1B9A">
+    <center>
+        <h1><font color="#E65100">CONSULTAS EN MYSQL</font></h1>
+        <hr color="#FFA726" size="4">
+    </center>
+
+    <h2><font color="#EF6C00">¿Que son las consultas?</font></h2>
     <p>Las consultas permiten buscar y mostrar informacion que se encuentra guardada en una base de datos.</p>
 
-    <h2>Mostrar todos los registros</h2>
+    <h2><font color="#EF6C00">Mostrar todos los registros</font></h2>
     <pre>
 SELECT * FROM alumnos;
     </pre>
 
-    <h2>Mostrar algunas columnas</h2>
+    <h2><font color="#EF6C00">Mostrar algunas columnas</font></h2>
     <pre>
 SELECT nombre, grupo
 FROM alumnos;
     </pre>
 
-    <h2>Buscar por condicion</h2>
+    <h2><font color="#EF6C00">Buscar por condicion</font></h2>
     <pre>
 SELECT * FROM alumnos
 WHERE grupo = '4A';
     </pre>
 
-    <h2>Modificar un registro</h2>
+    <h2><font color="#EF6C00">Modificar un registro</font></h2>
     <pre>
 UPDATE alumnos
 SET grupo = '4B'
 WHERE nombre = 'Ana';
     </pre>
 
-    <p>WHERE permite indicar que registros se quieren consultar o modificar. Es importante utilizarlo correctamente al actualizar datos.</p>
+    <p>SELECT permite consultar informacion y WHERE permite indicar una condicion. UPDATE modifica los datos seleccionados.</p>
 
     <p><a href="index.html">Volver al menu principal</a></p>
 </body>
