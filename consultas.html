@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Consultas en MySQL</title>
+</head>
+<body>
+    <h1>Consultas en MySQL</h1>
+    <p>Las consultas permiten buscar y mostrar informacion que se encuentra guardada en una base de datos.</p>
+
+    <h2>Mostrar todos los registros</h2>
+    <pre>
+SELECT * FROM alumnos;
+    </pre>
+
+    <h2>Mostrar algunas columnas</h2>
+    <pre>
+SELECT nombre, grupo
+FROM alumnos;
+    </pre>
+
+    <h2>Buscar por condicion</h2>
+    <pre>
+SELECT * FROM alumnos
+WHERE grupo = '4A';
+    </pre>
+
+    <h2>Modificar un registro</h2>
+    <pre>
+UPDATE alumnos
+SET grupo = '4B'
+WHERE nombre = 'Ana';
+    </pre>
+
+    <p>WHERE permite indicar que registros se quieren consultar o modificar. Es importante utilizarlo correctamente al actualizar datos.</p>
+
+    <p><a href="index.html">Volver al menu principal</a></p>
+</body>
+</html>

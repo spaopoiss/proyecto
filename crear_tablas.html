@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear tablas en MySQL</title>
+</head>
+<body>
+    <h1>Crear tablas en MySQL</h1>
+    <p>Las tablas permiten almacenar datos en filas y columnas. Cada columna tiene un nombre y un tipo de dato.</p>
+
+    <h2>Ejemplo de sintaxis</h2>
+    <pre>
+CREATE TABLE alumnos (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(50),
+    edad INT,
+    grupo VARCHAR(10)
+);
+    </pre>
+
+    <p>INT almacena numeros enteros. VARCHAR permite guardar texto. PRIMARY KEY identifica cada registro y AUTO_INCREMENT genera identificadores automaticamente.</p>
+
+    <p><a href="index.html">Volver al menu principal</a></p>
+</body>
+</html>
